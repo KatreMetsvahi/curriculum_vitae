@@ -1,0 +1,1 @@
+export const getArrayOfEmptyItems = (length) => Array.from(new Array(length));

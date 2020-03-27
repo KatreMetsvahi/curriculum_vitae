@@ -1,0 +1,45 @@
+.cloud {
+  animation: {
+    name: moveCloud;
+    timing-function: linear;
+    iteration-count: infinite;
+  }
+  background-color: $white;
+  border-radius: 5rem;
+  height: 8rem;
+  margin-left: 100vw;
+  opacity: .5;
+  position: absolute;
+  width: 20rem;
+
+  &:before,
+  &:after {
+    background-color: inherit;
+    border-radius: 50%;
+    content: '';
+    position: absolute;
+  }
+
+  &:before {
+    height: 6rem;
+    left: 3rem;
+    top: -3rem;
+    width: 6rem;
+  }
+
+  &:after {
+    height: 11rem;
+    right: 2rem;
+    top: -5rem;
+    width: 11rem;
+  }
+}
+
+@keyframes moveCloud {
+  0% {
+    margin-left: 100vw;
+  }
+  100% {
+    margin-left: -100%;
+  }
+}
