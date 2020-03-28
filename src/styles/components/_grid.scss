@@ -1,5 +1,9 @@
 .grid {
   display: grid;
   grid-gap: 1rem;
-  grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));;
+  grid-template-columns: 1fr;
+
+  @media (min-width: $breakpoint-xs) {
+    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+  }
 }

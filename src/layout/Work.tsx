@@ -25,7 +25,7 @@ const Work = () => {
 
   return (
     <section>
-      <h3>Minu töökogemused</h3>
+      <h3>Minu töö&shy;kogemused</h3>
 
       <div className={ 'grid' }>
         <div className={'workplace workplace--new'}>
