@@ -1,0 +1,32 @@
+{
+  "iSmith": {
+    "name": "I-Smith OÜ",
+    "time": "2018 - ...",
+    "description": "Minu praegune töökoht. I-Smith on tarkvaraagentuur, mis on muutumas tootefirmaks. See on andnud mulle võimaluse näha lähemalt protsessi, kuidas ühest tellimustootest on võimalik teha laiemale klientuurile suunatud toodet, alates brändingust kuni reaalsete kasutajate leidmiseni.",
+    "technologies": ["Vue.js", "React", "TypeScript", "Webpack", "Sass"]
+  },
+  "codeyra": {
+    "name": "Codeyra OÜ",
+    "time": "2018 - ...",
+    "description": "Minu isiklik firma, läbi mille teen vabakutselisena tööd. Minu töö seisneb peamiselt veebilehtede programmeerimises, aga kui klientidel tarvis, siis aitan ka disainiga. Samuti olen viimasel ajal vajadusest tulenevalt laiendanud oma teadmisi SEO osas.",
+    "technologies": ["WordPress", "Sass", "GIMP", "Inkscape"]
+  },
+  "icefire": {
+    "name": "Icefire OÜ",
+    "time": "2016 - 2018",
+    "description": "Icefire on tarkvaraagentuur, kus töötamise ajal sain osaleda mitmetes erinevates projektides, nagu näiteks Starmani iseteeninduse ja veebi loomine. Samuti lõin kaasa hulgas Maksu- ja Tolliameti projektides ning minu hallata oli ka komponentide raamistik, mille peale need projektid ehitatud olid.",
+    "technologies": ["React", "Webpack", "Angular", "Gulp", "Sass"]
+  },
+  "telia": {
+    "name": "Telia Eesti AS",
+    "time": "2015 - 2016",
+    "description": "Telias töötasin ma TV tiimis. Meie ülesanne oli arendada TV kasutajaliidest: seda sama, mida TeliaTV kasutajad oma koduses televiisoris näevad. Kogu kasutajaliides oli tehtud vanilla JavaScriptis, nii et selle kirjutamine sai ka korralikult selgeks.",
+    "technologies": ["JavaScript","Sass"]
+  },
+  "krediidipank": {
+    "name": "AS Eesti Krediidipank",
+    "time": "2015",
+    "description": "Seal tegin ma oma praktika ülikooli jaoks. Minu töö oli sisestada valemeid Exceli-laadsesse programmi, et raamatupidajatel oleks kergem aruandeid genereerida.",
+    "technologies": []
+  }
+}
