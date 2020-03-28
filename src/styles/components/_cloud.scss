@@ -6,11 +6,17 @@
   }
   background-color: $white;
   border-radius: 5rem;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, .1);
   height: 8rem;
   margin-left: 100vw;
   opacity: .5;
   position: absolute;
+  transition: opacity 200ms ease-in-out;
   width: 20rem;
+
+  &:hover {
+    opacity: .7;
+  }
 
   &:before,
   &:after {
