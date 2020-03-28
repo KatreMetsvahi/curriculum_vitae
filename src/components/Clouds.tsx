@@ -5,7 +5,8 @@ import { getArrayOfEmptyItems } from '../utils/arrayUtils';
 const CLOUD_GROUP_COUNT = 4;
 
 const Clouds = () => {
-  const cloudCount = Math.ceil(window.innerWidth / 100);
+  const windowWidth = window.innerWidth;
+  const cloudCount = Math.ceil(windowWidth / 100);
   const cloudArray = getArrayOfEmptyItems(cloudCount);
 
   const generateCloud = (group: number, index: number): JSX.Element => (
@@ -14,7 +15,7 @@ const Clouds = () => {
       key={group * CLOUD_GROUP_COUNT + index}
       style={{
         animationDelay: group === 0 ? '0' : `${getRandomNumber(10 * (group - 1), 10 * group)}s`,
-        animationDuration: `${getRandomNumber(30, 120)}s`,
+        animationDuration: `${getRandomNumber(windowWidth / (10 * CLOUD_GROUP_COUNT), windowWidth / 10)}s`,
         top: `${getRandomNumber(10, 80)}%`,
         transform: `scale(.${getRandomNumber(1, 8)})`
       }}
