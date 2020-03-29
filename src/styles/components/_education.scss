@@ -1,0 +1,38 @@
+.education {
+  margin: 0 auto;
+  max-width: 35rem;
+  padding: 1rem;
+  position: relative;
+  outline: 1px solid transparent;
+  transition: 200ms ease-in-out {
+    property: background-color, box-shadow, outline;
+  }
+
+  &:hover {
+    background-color: lighten($white, .7%);
+    box-shadow: 0 1px 3px 0 $grey-dark;
+    outline-color: $grey;
+  }
+
+  &:not(:last-of-type) {
+    margin-bottom: 5rem;
+
+    &:after {
+      background-color: $grey-dark;
+      content: '';
+      height: 3rem;
+      margin-top: 2rem;
+      position: absolute;
+      width: 1px;
+    }
+  }
+
+  p:last-of-type {
+    margin: 0;
+  }
+}
+
+.education__time {
+  margin-top: -1rem;
+  opacity: .7;
+}

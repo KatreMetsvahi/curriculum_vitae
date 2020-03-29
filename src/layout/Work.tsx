@@ -10,7 +10,7 @@ type Workplace = {
 };
 
 const Work = () => {
-  const createWorkplace = (workplace: Workplace) => (
+  const getWorkplace = (workplace: Workplace) => (
     <div className={ 'workplace' }>
       <div>
         <h4 className={'workplace__title'}>{ workplace.name }</h4>
@@ -35,11 +35,11 @@ const Work = () => {
           <p>Telefon: <a href="tel:+372-58046754">+372 58046754</a></p>
         </div>
 
-        { createWorkplace(workplaces.iSmith) }
-        { createWorkplace(workplaces.codeyra) }
-        { createWorkplace(workplaces.icefire) }
-        { createWorkplace(workplaces.telia) }
-        { createWorkplace(workplaces.krediidipank) }
+        { getWorkplace(workplaces.iSmith) }
+        { getWorkplace(workplaces.codeyra) }
+        { getWorkplace(workplaces.icefire) }
+        { getWorkplace(workplaces.telia) }
+        { getWorkplace(workplaces.krediidipank) }
       </div>
     </section>
   );

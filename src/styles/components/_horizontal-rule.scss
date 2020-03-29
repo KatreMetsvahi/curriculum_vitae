@@ -1,0 +1,7 @@
+hr {
+  background: $grey-dark;
+  background: radial-gradient(circle at center, $grey-dark 0, rgba(0, 0, 0, 0) 5rem);
+  border: none;
+  height: 1px;
+  margin: 0;
+}
