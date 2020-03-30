@@ -1,6 +1,7 @@
 // Icons from https://konpa.github.io/devicon/
 
 import React from 'react';
+import cx from 'classnames';
 
 import angular from '../static/images/angularjs-original.svg';
 import gimp from '../static/images/gimp-original.svg'
@@ -74,10 +75,10 @@ export const getIcon = (icon: string) => {
   }
 };
 
-const createLogo = (src: string, title: string) => (
+const createLogo = (src: string, title: string, small: boolean = false) => (
   <img
     alt={`${title} logo`}
-    className={'logo'}
+    className={cx('logo', { 'logo--small': small })}
     src={src}
     title={title}
   />
@@ -86,7 +87,7 @@ const createLogo = (src: string, title: string) => (
 export const getLogo = (logo: string) => {
   switch (logo) {
     case Logo.Reaalkool:
-      return createLogo(reaalkool, 'Tallinna Reaalkool');
+      return createLogo(reaalkool, 'Tallinna Reaalkool', true);
     case Logo.TalTech:
       return createLogo(taltech, 'TalTech');
     default:
