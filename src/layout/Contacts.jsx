@@ -34,7 +34,7 @@ const Contacts = () => {
         </a>
       </div>
 
-      <p>Käesoleva CV koodi võib samuti leida Githubist:</p>
+      <p>Käesoleva CV koodi võib samuti leida GitHubist:</p>
       <a
         className={'contacts__github'}
         href={'https://github.com/KatreMetsvahi/curriculum_vitae'}
