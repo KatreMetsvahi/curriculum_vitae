@@ -1,8 +1,10 @@
 import React from 'react';
+import { getLogo } from '../utils/imageUtils';
 import education from '../static/data/education.json';
 
 type Education = {
   description: string,
+  logo: string,
   name: string,
   time: string
 };
@@ -13,6 +15,7 @@ const Ecucation = () => {
       <h4>{ education.name}</h4>
       <p className={'education__time'}>{ education.time }</p>
       <p>{ education.description }</p>
+      { getLogo(education.logo) }
     </div>
   );
 

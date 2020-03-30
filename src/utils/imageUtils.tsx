@@ -7,8 +7,10 @@ import gimp from '../static/images/gimp-original.svg'
 import gulp from '../static/images/gulp-plain.svg';
 import inkscape from '../static/images/inkscape-original.svg';
 import javascript from '../static/images/javascript-original.svg';
+import reaalkool from '../static/images/0_1_Reaalkool_logo.svg';
 import react from '../static/images/react-original.svg';
 import sass from '../static/images/sass-original.svg';
+import taltech from '../static/images/TalTech_Gradient.png';
 import typescript from '../static/images/typescript-original.svg';
 import vuejs from '../static/images/vuejs-original.svg';
 import webpack from '../static/images/webpack-original.svg';
@@ -28,10 +30,15 @@ enum Icon {
   WordPress = 'WordPress'
 }
 
+enum Logo {
+  Reaalkool = 'Reaalkool',
+  TalTech = 'TalTech'
+}
+
 const createIcon = (src: string, title: string) => (
   <img
     alt={`${title} logo`}
-    className={'logo'}
+    className={'icon'}
     key={title}
     src={src}
     title={title}
@@ -64,5 +71,25 @@ export const getIcon = (icon: string) => {
       return createIcon(wordpress, 'WordPress');
     default:
       throw new Error(`Icon ${icon} not found`);
+  }
+};
+
+const createLogo = (src: string, title: string) => (
+  <img
+    alt={`${title} logo`}
+    className={'logo'}
+    src={src}
+    title={title}
+  />
+);
+
+export const getLogo = (logo: string) => {
+  switch (logo) {
+    case Logo.Reaalkool:
+      return createLogo(reaalkool, 'Tallinna Reaalkool');
+    case Logo.TalTech:
+      return createLogo(taltech, 'TalTech');
+    default:
+      throw new Error(`Logo ${logo} not found`);
   }
 };
