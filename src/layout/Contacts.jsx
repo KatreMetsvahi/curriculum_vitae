@@ -7,7 +7,7 @@ const Contacts = () => {
       <p>Kui peale eeltoodu lugemist tunned, et soovid minuga koostööd teha, siis võta ühendust:</p>
 
       <div className={'contacts__grid'}>
-        <i className={'fas fa-phone-alt contacts__icon'}/>
+        <i className={'fas fa-envelope contacts__icon'}/>
         <a
           className={'contacts__link'}
           href={'mailto:katre.metsvahi@gmail.com'}
@@ -15,7 +15,7 @@ const Contacts = () => {
           katre.metsvahi@gmail.com
         </a>
 
-        <i className={'fas fa-envelope contacts__icon'}/>
+        <i className={'fas fa-phone-alt contacts__icon'}/>
         <a
           className={'contacts__link'}
           href={'tel:+372-58046754'}
