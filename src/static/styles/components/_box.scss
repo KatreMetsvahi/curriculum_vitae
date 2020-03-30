@@ -1,5 +1,7 @@
+$box-color: lighten($background-color, .7%);
+
 .box {
-  background-color: lighten($background-color, .7%);
+  background-color: $box-color;
   border: 1px solid $grey-light;
   display: flex;
   flex-direction: column;
@@ -31,7 +33,7 @@
 
 .box__icon {
   background: $background-color;
-  background: linear-gradient(0deg, lighten($background-color, .7%) 50%, $background-color 50%);
+  background: linear-gradient(0deg, $box-color 50%, $background-color 50%);
   color: $grey-dark;
   font-size: 3rem;
   left: 50%;
@@ -43,6 +45,18 @@
 
   .box:hover & {
     color: darken($grey-dark, 15%);
+  }
+
+  .box:hover &.box__icon--blue {
+    color: $blue-dark;
+  }
+
+  .box:hover &.box__icon--red {
+    color: $red;
+  }
+
+  .box:hover &.box__icon--yellow {
+    color: $yellow;
   }
 }
 
