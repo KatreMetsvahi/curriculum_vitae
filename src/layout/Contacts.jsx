@@ -2,7 +2,7 @@ import React from 'react';
 
 const Contacts = () => {
   return (
-    <section>
+    <section className={'contacts'}>
       <h3>Võta minuga ühendust</h3>
       <p>Kui eeltoodu sulle meeldis ja on soovi minuga koostööd teha, siis kirjuta</p>
       <a

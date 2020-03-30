@@ -4,7 +4,7 @@ import aboutme from '../static/data/aboutme.json';
 const AboutMe = () => {
   return (
     <section className={'about-me'}>
-      <h3>Minust</h3>
+      <h3>Minust endast</h3>
 
       <div className={'grid'}>
         <div className={'box box--with-icon'}>
