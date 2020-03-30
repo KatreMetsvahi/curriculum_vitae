@@ -3,6 +3,7 @@ import Header from './layout/Header';
 import Work from './layout/Work';
 import Education from './layout/Education';
 import AboutMe from './layout/AboutMe';
+import Contacts from './layout/Contacts';
 import './styles/main.scss';
 
 const App = () => (
@@ -13,6 +14,8 @@ const App = () => (
     <Education/>
     <hr/>
     <AboutMe/>
+    <hr/>
+    <Contacts/>
   </div>
 );
 
