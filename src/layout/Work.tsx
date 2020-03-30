@@ -11,13 +11,13 @@ type Workplace = {
 
 const Work = () => {
   const getWorkplace = (workplace: Workplace) => (
-    <div className={ 'workplace' }>
+    <div className={ 'box' }>
       <div>
-        <h4 className={'workplace__title'}>{ workplace.name }</h4>
-        <p className={'workplace__time'}>{ workplace.time }</p>
+        <h4 className={'box__title'}>{ workplace.name }</h4>
+        <p className={'box__time'}>{ workplace.time }</p>
       </div>
       <p>{ workplace.description }</p>
-      <div className={'workplace__icons'}>
+      <div className={'box__footer'}>
         { workplace.technologies.map((technology: string) => getIcon(technology)) }
       </div>
     </div>
@@ -28,7 +28,7 @@ const Work = () => {
       <h3>Minu töö&shy;kogemused</h3>
 
       <div className={ 'grid' }>
-        <div className={'workplace workplace--new'}>
+        <div className={'box box--new'}>
           <h4>Minu tuleviku töö</h4>
           <p>Kui oled huvitatud koostööst minuga, siis võta julgesti ühendust!</p>
           <p>Email: <a href='mailto:katre.metsvahi@gmail.com'>katre.metsvahi@gmail.com</a></p>

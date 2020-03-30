@@ -9,16 +9,16 @@
   }
 
   &:hover {
-    background-color: lighten($white, .7%);
-    box-shadow: 0 1px 3px 0 $grey-dark;
-    outline-color: $grey;
+    background-color: lighten($background-color, .7%);
+    box-shadow: 0 1px 3px 0 $grey;
+    outline-color: $grey-light;
   }
 
   &:not(:last-of-type) {
     margin-bottom: 5rem;
 
     &:after {
-      background-color: $grey-dark;
+      background-color: $grey;
       content: '';
       height: 3rem;
       margin-top: 2rem;
