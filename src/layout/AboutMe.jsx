@@ -8,18 +8,18 @@ const AboutMe = () => {
 
       <div className={'grid'}>
         <div className={'box box--with-icon'}>
-          <i className="material-icons box__icon box__icon--yellow">star</i>
+          <i className={'fas fa-star box__icon box__icon--yellow'}/>
           <p>{ aboutme.intro }</p>
         </div>
 
         <div className={'box box--with-icon'}>
-          <i className="material-icons box__icon box__icon--red">favorite</i>
+          <i className={'fas fa-heart box__icon box__icon--red'}/>
           <p>{ aboutme.passion1 }</p>
           <p>{ aboutme.passion2 }</p>
         </div>
 
         <div className={'box box--with-icon'}>
-          <i className="material-icons box__icon box__icon--blue">sports_tennis</i>
+          <i className={'fas fa-biking box__icon box__icon--blue'}/>
           <p>{ aboutme.hobbies }</p>
         </div>
       </div>

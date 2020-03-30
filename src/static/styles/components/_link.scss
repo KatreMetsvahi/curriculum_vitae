@@ -1,16 +1,3 @@
 a {
   color: $blue-dark;
 }
-
-.link-block {
-  background-color: lighten($background-color, .7%);
-  border: 1px dashed $grey;
-  display: inline-block;
-  margin-bottom: 1rem;
-  padding: 1rem;
-  transition: border-color 200ms ease-in-out;
-
-  &:hover {
-    border-color: currentColor;
-  }
-}

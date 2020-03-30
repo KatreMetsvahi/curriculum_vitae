@@ -31,8 +31,8 @@ const Work = () => {
         <div className={'box box--new'}>
           <h4>Minu tuleviku töö</h4>
           <p>Kui oled huvitatud koostööst minuga, siis võta julgesti ühendust!</p>
-          <p>Email: <a href='mailto:katre.metsvahi@gmail.com'>katre.metsvahi@gmail.com</a></p>
-          <p>Telefon: <a href='tel:+372-58046754'>+372 58046754</a></p>
+          <p>Email: <a href={'mailto:katre.metsvahi@gmail.com'}>katre.metsvahi@gmail.com</a></p>
+          <p>Telefon: <a href={'tel:+372-58046754'}>+372 58046754</a></p>
         </div>
 
         { getWorkplace(workplaces.iSmith) }
