@@ -14,7 +14,8 @@ const AboutMe = () => {
 
         <div className={'box box--with-icon'}>
           <i className="material-icons box__icon">favorite</i>
-          <p>{ aboutme.passion }</p>
+          <p>{ aboutme.passion1 }</p>
+          <p>{ aboutme.passion2 }</p>
         </div>
 
         <div className={'box box--with-icon'}>
