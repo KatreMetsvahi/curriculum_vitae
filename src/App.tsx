@@ -4,6 +4,7 @@ import Work from './layout/Work';
 import Education from './layout/Education';
 import AboutMe from './layout/AboutMe';
 import Contacts from './layout/Contacts';
+import Footer from './layout/Footer';
 import './styles/main.scss';
 
 const App = () => (
@@ -16,6 +17,7 @@ const App = () => (
     <AboutMe/>
     <hr/>
     <Contacts/>
+    <Footer/>
   </div>
 );
 
