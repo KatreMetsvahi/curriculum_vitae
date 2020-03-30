@@ -5,7 +5,7 @@ import Education from './layout/Education';
 import AboutMe from './layout/AboutMe';
 import Contacts from './layout/Contacts';
 import Footer from './layout/Footer';
-import './styles/main.scss';
+import './static/styles/main.scss';
 
 const App = () => (
   <div className={'App'}>
