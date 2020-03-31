@@ -1,0 +1,60 @@
+{
+  "aboutMe": {
+    "hobbies": "My free time is spent on reading, handycraft and taking care of my sizeable plant collection: I am especially proud about my lemon tree. I also hold working out in high regard: I attend badminton and self-dense classes and my mornings always start with a yoga session.",
+    "passion": {
+      "part1": "My special focus is on User Experience (UX) and Accessibility (a11y). I am constantly educating myself on these topics and have also attended multiple conferences. One of the best learning experiences I have had was quite recently: I attended a workshop where a blind person demonstrated how he navigates the web, followed by tips for further improvement.",
+      "part2": "My dream website is one that anyone could use without requiring any extra instructions."
+    },
+    "title": "About me",
+    "work": "I might be a front-end developer by profession but I do not shy away from back-end or design either. I am in search for a place in a collective where completing a sprint is a fundamental belief and code reviews are something to learn from. My wish is to work in a team where decisions are made together and overcoming difficulties is a joint effort as well. I know how to find solutions to my problems but can also tell when is a good time to ask for help."
+  },
+  "contacts": {
+    "codeInfo": "The code for this CV can be found on GitHub",
+    "description": "If you feel like you are up for a collaboration then contact me",
+    "title": "Contact me"
+  },
+  "education": {
+    "places": {
+      "reaalkool": {
+        "description": "Secondary education",
+        "name": "Tallinn Secondary School of Science (Tallinna Reaalkool)"
+      },
+      "ttuBachelors": {
+        "description": "Bachelor's Degree in Informatics (cum laude)",
+        "name": "Tallinn University of Technology"
+      },
+      "ttuMasters": {
+        "description": "Master's in Informatics (thesis in progress)",
+        "name": "Tallinn University of Technology"
+      }
+    },
+    "title": "My education"
+  },
+  "email": "Email",
+  "logo": "logo",
+  "phone": "Phone",
+  "work": {
+    "new": {
+      "description": "Feel free to contact me if you are interested in collaborations or hiring me!",
+      "title": "My future job"
+    },
+    "places": {
+      "codeyra": {
+        "description": "My own personal company, which I use for freelance work. My focus is on web development but can also help with design work. I have also been expanding my knowledge in the SEO field lately."
+      },
+      "icefire": {
+        "description": "Icefire being a software agency enabled me to work on various different projects. Among those were the Starman website with self-service and also multiple projects for the Estonian Tax and Customs Board. I also managed the component library that many of the latter were built on."
+      },
+      "ismith": {
+        "description": "My current place of employment. I-Smith is a software agency that is turning into a service company. Being part of this process has given me the opportunity to see up-close how a custom order product can be converted into a general-purpose service, from branding to customer acquisition."
+      },
+      "krediidipank": {
+        "description": "This is where I did my internship for university. My job was to enter formulas into a program similar to Excel that the accountants would then use to generate reports."
+      },
+      "telia": {
+        "description": "I was part of the TV team that was responsible for managing the TeliaTV user interface: the same one you might see in your TV if you have that service! Working there definitely gave me a strong base in vanilla JavaScript, since that is what our codebase was written in."
+      }
+    },
+    "title": "My job experiences"
+  }
+}
