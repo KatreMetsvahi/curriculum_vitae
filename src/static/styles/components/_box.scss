@@ -5,16 +5,24 @@ $box-color: lighten($background-color, .7%);
   border: 1px solid $grey-light;
   display: flex;
   flex-direction: column;
+  margin-bottom: 1.5rem;
   padding: 1rem;
   position: relative;
   transition: 200ms ease-in-out {
     property: border-color, box-shadow, margin;
   }
 
+  @supports (display: grid) {
+    margin-bottom: 0;
+  }
+
   &:not(.box--new):hover {
     border-color: $grey;
     box-shadow: 0 3px 5px 0 $grey;
-    margin: -0.2rem 0 .2rem;
+
+    @supports (display: grid) {
+      margin: -0.2rem 0 .2rem;
+    }
   }
 
   &.box--new {

@@ -6,7 +6,7 @@ const Contacts = () => {
       <h3>Võta minuga ühendust</h3>
       <p>Kui peale eeltoodu lugemist tunned, et soovid minuga koostööd teha, siis võta ühendust:</p>
 
-      <div className={'contacts__grid'}>
+      <div className={'contacts__container'}>
         <i className={'fas fa-envelope contacts__icon'}/>
         <a
           className={'contacts__link'}
@@ -14,7 +14,9 @@ const Contacts = () => {
         >
           katre.metsvahi@gmail.com
         </a>
+      </div>
 
+      <div className={'contacts__container'}>
         <i className={'fas fa-phone-alt contacts__icon'}/>
         <a
           className={'contacts__link'}
@@ -22,7 +24,9 @@ const Contacts = () => {
         >
           +372 58046754
         </a>
+      </div>
 
+      <div className={'contacts__container'}>
         <i className={'fab fa-linkedin-in contacts__icon'}/>
         <a
           className={'contacts__link'}
@@ -41,7 +45,7 @@ const Contacts = () => {
         rel={'noopener noreferrer'}
         target={'_blank'}
       >
-        <i className={'fab fa-github'} />
+        <i className={'fab fa-github'}/>
       </a>
     </section>
   );
