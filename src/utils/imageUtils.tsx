@@ -2,6 +2,7 @@
 
 import React from 'react';
 import cx from 'classnames';
+import t from './translator';
 
 import angular from '../static/images/angularjs-original.svg';
 import gimp from '../static/images/gimp-original.svg'
@@ -38,7 +39,7 @@ enum Logo {
 
 const createIcon = (src: string, title: string) => (
   <img
-    alt={`${title} logo`}
+    alt={`${title} ${t('logo')}`}
     className={'icon'}
     key={title}
     src={src}
@@ -77,7 +78,7 @@ export const getIcon = (icon: string) => {
 
 const createLogo = (src: string, title: string, small: boolean = false) => (
   <img
-    alt={`${title} logo`}
+    alt={`${title} ${t('logo')}`}
     className={cx('logo', { 'logo--small': small })}
     src={src}
     title={title}

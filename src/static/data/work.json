@@ -1,0 +1,32 @@
+{
+  "codeyra": {
+    "key": "codeyra",
+    "name": "Codeyra OÜ",
+    "technologies": ["WordPress", "Inkscape", "GIMP", "Sass"],
+    "time": "2018 - ..."
+  },
+  "icefire": {
+    "key": "icefire",
+    "name": "Icefire OÜ",
+    "technologies": ["React", "Webpack", "Angular", "Gulp", "Sass"],
+    "time": "2016 - 2018"
+  },
+  "ismith": {
+    "key": "ismith",
+    "name": "I-Smith OÜ",
+    "technologies": ["Vue.js", "React", "TypeScript", "Webpack", "Sass"],
+    "time": "2018 - ..."
+  },
+  "krediidipank": {
+    "key": "krediidipank",
+    "name": "AS Eesti Krediidipank",
+    "technologies": [],
+    "time": "2015"
+  },
+  "telia": {
+    "key": "telia",
+    "name": "Telia Eesti AS",
+    "technologies": ["JavaScript", "Sass"],
+    "time": "2015 - 2016"
+  }
+}

@@ -1,10 +1,11 @@
 import React from 'react';
+import t from '../utils/translator';
 
 const Contacts = () => {
   return (
     <section className={'contacts'}>
-      <h3>Võta minuga ühendust</h3>
-      <p>Kui peale eeltoodu lugemist tunned, et soovid minuga koostööd teha, siis võta ühendust:</p>
+      <h3>{ t('contacts.title') }</h3>
+      <p>{ t('contacts.description') }:</p>
 
       <div className={'contacts__container'}>
         <i className={'fas fa-envelope contacts__icon'}/>
@@ -38,7 +39,7 @@ const Contacts = () => {
         </a>
       </div>
 
-      <p>Käesoleva CV koodi võib samuti leida GitHubist:</p>
+      <p>{ t('contacts.codeInfo') }:</p>
       <a
         className={'contacts__github'}
         href={'https://github.com/KatreMetsvahi/curriculum_vitae'}

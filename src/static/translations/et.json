@@ -1,0 +1,60 @@
+{
+  "aboutMe": {
+    "hobbies": "Vaba aega sisustan ma lugemise, käsitöö ning oma suure taime&shy;kollektsiooni eest hoolitsemisega: eriti uhke olen ma oma sidruni&shy;puu üle. Samuti on minu jaoks kõrges hinnas trenn — käin sulgpalli- ja enese&shy;kaitse trennides — ning üks õige hommik algab ikka alati jooga&shy;sessiooniga.",
+    "passion": {
+      "part1": "Minu südamea&shy;sjaks on kasutaja&shy;kogemus (UX) ja ligi&shy;pääsetavus (accessibility). Harin end sellel alal pidevalt ning käin ka konverentsidel teadmisi täiendamas. Üks parimaid koolitus&shy;kogemusi oli just hiljuti, kus pime inimene demonstreeris veebi kasutamist, ning jagas ka näpunäiteid, mida paremini teha.",
+      "part2": "Minu unistuste veebi&shy;leht on selline, mida igaüks saab kasutada, ilma selleks eelnevat juhendamist vajamata."
+    },
+    "title": "Minust endast",
+    "work": "Olen ametilt front-end arendaja, kuid ei karda ka nina back-endi või disaini maailma pista. Otsin oma kohta kollektiivis, kus sprindi lõpetamine on auasi ja igast code review'st võib midagi kõrva taha panna. Soovin töötada tiimis, kus otsuseid võetakse vastu ühiselt ning ka raskused ületatakse ühes&shy;koos. Oskan oma probleemidele ise lahendust otsida, kuid tean ka, millal on õige aeg kolleegilt abi küsida."
+  },
+  "contacts": {
+    "codeInfo": "Käesoleva CV koodi võib samuti leida GitHubist",
+    "description": "Kui peale eeltoodu lugemist tunned, et soovid minuga koostööd teha, siis võta ühendust",
+    "title": "Võta minuga ühendust"
+  },
+  "education": {
+    "places": {
+      "reaalkool": {
+        "description": "Keskharidus",
+        "name": "Tallinna Reaalkool"
+      },
+      "ttuBachelors": {
+        "description": "Bakalaureuse&shy;kraad informaatikas (cum laude)",
+        "name": "Tallinna Tehnika&shy;ülikool"
+      },
+      "ttuMasters": {
+        "description": "Informaatika magistri&shy;õpe (lõputöö tegemisel)",
+        "name": "Tallinna Tehnika&shy;ülikool"
+      }
+    },
+    "title": "Minu haridus&shy;teekond"
+  },
+  "email": "E-post",
+  "logo": "logo",
+  "phone": "Telefon",
+  "work": {
+    "new": {
+      "description": "Kui oled huvitatud koos&shy;tööst minuga, siis võta julgesti ühendust!",
+      "title": "Minu tuleviku töö"
+    },
+    "places": {
+      "codeyra": {
+        "description": "Minu isiklik firma, läbi mille teen vaba&shy;kutselisena tööd. Minu töö seisneb peamiselt veebi&shy;lehtede programmeerimises, aga kui klientidel tarvis, siis aitan ka disainiga. Samuti olen viimasel ajal vajadusest tulenevalt laiendanud oma teadmisi SEO osas."
+      },
+      "icefire": {
+        "description": "Icefire on tarkvara&shy;agentuur, kus töötamise ajal sain osaleda mitmetes erinevates projektides, nagu näiteks Starmani ise&shy;teeninduse ja veebi loomine. Samuti lõin kaasa hulgas Maksu- ja Tolliameti projektides ning minu hallata oli ka komponentide raamistik, mille peale need projektid ehitatud olid."
+      },
+      "ismith": {
+        "description": "Minu praegune töökoht. I-Smith on tarkvara&shy;agentuur, mis on muutumas toote&shy;firmaks. See on andnud mulle võimaluse näha lähemalt protsessi, kuidas ühest tellimus&shy;tootest on võimalik teha laiemale klientuurile suunatud toodet, alates brändingust kuni reaalsete kasutajate leidmiseni."
+      },
+      "krediidipank": {
+        "description": "Seal tegin ma oma praktika ülikooli jaoks. Minu töö oli sisestada valemeid Exceli-laadsesse programmi, et raamatu&shy;pidajatel oleks kergem aruandeid genereerida."
+      },
+      "telia": {
+        "description": "Telias töötasin ma TV tiimis. Meie ülesanne oli arendada TV kasutaja&shy;liidest: seda sama, mida TeliaTV kasutajad oma koduses televiisoris näevad. Kogu kasutaja&shy;liides oli tehtud vanilla JavaScriptis, nii et selle kirjutamine sai ka korralikult selgeks."
+      }
+    },
+    "title": "Minu töö&shy;kogemused"
+  }
+}

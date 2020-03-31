@@ -1,20 +1,17 @@
 {
-  "ttuMasters": {
-    "name": "Tallinna Tehnikaülikool",
-    "time": "2015 - ...",
-    "description": "Informaatika magistriõpe (lõputöö tegemisel)",
-    "logo": "TalTech"
+  "reaalkool": {
+    "key": "reaalkool",
+    "logo": "Reaalkool",
+    "time": "2009 - 2012"
   },
   "ttuBachelors": {
-    "name": "Tallinna Tehnikaülikool",
-    "time": "2012 - 2015",
-    "description": "Bakalaureusekraad informaatikas (cum laude)",
-    "logo": "TalTech"
+    "key": "ttuBachelors",
+    "logo": "TalTech",
+    "time": "2012 - 2015"
   },
-  "reaalkool": {
-    "name": "Tallinna Reaalkool",
-    "time": "2009 - 2012",
-    "description": "Keskharidus",
-    "logo": "Reaalkool"
+  "ttuMasters": {
+    "key": "ttuMasters",
+    "logo": "TalTech",
+    "time": "2015 - ..."
   }
 }
