@@ -2,7 +2,7 @@
 
 import React from 'react';
 import cx from 'classnames';
-import t from './translator';
+import { translator as t } from './translationUtils';
 
 import angular from '../static/images/angularjs-original.svg';
 import gimp from '../static/images/gimp-original.svg'

@@ -1,5 +1,5 @@
 import React from 'react';
-import t from '../utils/translator';
+import { translator as t } from '../utils/translationUtils';
 
 const WorkplaceNew = () => (
   <div className={'box box--new'}>

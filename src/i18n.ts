@@ -4,6 +4,11 @@ import { initReactI18next } from 'react-i18next';
 import en from './static/translations/en.json';
 import et from './static/translations/et.json';
 
+export enum Language {
+  English = 'en',
+  Estonian = 'et'
+}
+
 const resources = {
   en: {
     translation: en
@@ -21,8 +26,8 @@ i18n
   .use(initReactI18next)
   .init({
     resources,
-    lng: lang || 'et',
-    fallbackLng: 'et',
+    lng: lang || Language.Estonian,
+    fallbackLng: Language.Estonian,
     keySeparator: '.',
     interpolation: {
       escapeValue: false

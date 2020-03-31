@@ -1,5 +1,5 @@
 import React from 'react';
-import t from '../utils/translator';
+import { translator as t } from '../utils/translationUtils';
 import { getIcon } from '../utils/imageUtils';
 
 type Workplace = {

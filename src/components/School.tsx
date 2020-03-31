@@ -1,6 +1,6 @@
 import React from 'react';
 import { getLogo } from '../utils/imageUtils';
-import t from '../utils/translator';
+import { translator as t } from '../utils/translationUtils';
 
 type School = {
   key: string,

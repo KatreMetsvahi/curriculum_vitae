@@ -1,6 +1,6 @@
 import React from 'react';
 import School from '../components/School';
-import t from '../utils/translator';
+import { translator as t } from '../utils/translationUtils';
 import education from '../static/data/education.json';
 
 const Education = () => (

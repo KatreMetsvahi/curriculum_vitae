@@ -1,7 +1,7 @@
 import React from 'react';
 import Workplace from '../components/Workplace';
 import WorkplaceNew from '../components/WorkplaceNew';
-import t from '../utils/translator';
+import { translator as t } from '../utils/translationUtils';
 import work from '../static/data/work.json';
 
 const Work = () => (
