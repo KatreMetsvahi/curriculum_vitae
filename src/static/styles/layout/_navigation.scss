@@ -2,6 +2,7 @@
   background: $blue-dark;
   bottom: 0;
   box-shadow: 0 0 10px 0 $grey;
+  box-sizing: border-box;
   display: table;
   position: fixed;
   text-align: center;
@@ -14,13 +15,16 @@
   @media (min-width: $breakpoint-xs) {
     background: none;
     box-shadow: none;
+    padding: 0 1rem;
     top: 0;
     text-align: right;
+  }
+}
 
-    &.nav--scrolled {
-      background: $blue;
-      box-shadow: 0 0 10px 0 $blue;
-    }
+.nav.nav--scrolled {
+  @media (min-width: $breakpoint-xs) {
+    background: $blue;
+    box-shadow: 0 0 10px 0 $blue;
   }
 }
 
@@ -31,10 +35,14 @@
   letter-spacing: 1px;
   padding: .5rem;
   text-decoration: none;
+  transition: 200ms ease-in-out {
+    property: background-color, border-bottom-color;
+  }
   vertical-align: middle;
   width: 20%;
 
   @media (min-width: $breakpoint-xs) {
+    border-bottom: 2px solid $blue;
     color: $text-color;
     display: inline-block;
     font: {
@@ -46,15 +54,12 @@
     width: auto;
   }
 
-  &.nav-link--cloud {
-    @media (min-width: $breakpoint-xs) {
-      .nav-link__icon {
-        display: block;
-      }
+  &:hover {
+    background-color: lighten($blue-dark, 10%);
 
-      .nav-link__text {
-        display: none;
-      }
+    @media (min-width: $breakpoint-xs) {
+      background: none;
+      border-bottom-color: $text-color;
     }
   }
 }
@@ -66,5 +71,17 @@
 
   @media (min-width: $breakpoint-xs) {
     display: none;
+  }
+}
+
+.nav-link.nav-link--cloud {
+  @media (min-width: $breakpoint-xs) {
+    .nav-link__icon {
+      display: block;
+    }
+
+    .nav-link__text {
+      display: none;
+    }
   }
 }

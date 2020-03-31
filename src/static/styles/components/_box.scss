@@ -24,18 +24,18 @@ $box-color: lighten($background-color, .7%);
       margin: -0.2rem 0 .2rem;
     }
   }
+}
 
-  &.box--new {
-    border: 2px dashed $grey;
-  }
+.box.box--new {
+  border: 2px dashed $grey;
+}
 
-  &.box--with-icon {
-    margin-top: 1rem;
-    padding: 2rem;
+.box.box--with-icon {
+  margin-top: 1rem;
+  padding: 2rem;
 
-    &:hover {
-      margin-top: 0.8rem;
-    }
+  &:hover {
+    margin-top: 0.8rem;
   }
 }
 

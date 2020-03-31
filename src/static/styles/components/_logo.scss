@@ -1,8 +1,8 @@
 .logo {
   box-sizing: border-box;
   max-height: 4rem;
+}
 
-  &.logo--small {
-    padding: .5rem;
-  }
+.logo.logo--small {
+  padding: .5rem;
 }
