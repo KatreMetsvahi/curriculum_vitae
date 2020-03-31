@@ -9,4 +9,5 @@ export const getLanguage = () => i18n.language;
 
 export const changeLanguage = (language: Language) => {
   i18n.changeLanguage(language);
+  window.history.pushState(null, '', `?lang=${language}`);
 };
