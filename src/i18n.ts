@@ -12,11 +12,16 @@ const resources = {
   }
 };
 
+const queryString = window.location.search;
+const urlParams = new URLSearchParams(queryString);
+const lang = urlParams.get('lang');
+
 i18n
   .use(initReactI18next)
   .init({
     resources,
-    lng: 'et',
+    lng: lang || 'et',
+    fallbackLng: 'et',
     keySeparator: '.',
     interpolation: {
       escapeValue: false
