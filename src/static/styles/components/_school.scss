@@ -1,4 +1,4 @@
-.education {
+.school {
   text-align: center;
 
   &:not(:last-of-type):after {
@@ -15,7 +15,7 @@
   }
 }
 
-.education__time {
+.school__time {
   margin-top: -1rem;
   opacity: .7;
 }
