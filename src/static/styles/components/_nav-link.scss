@@ -54,7 +54,7 @@
 }
 
 .nav-link.nav-link--language {
-  border-left: 1px solid $black;
+  border-left: 1px solid darken($blue-dark, 15%);
   padding: 0;
 
   @media (min-width: $breakpoint-xs) {
