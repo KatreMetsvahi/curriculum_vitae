@@ -3,7 +3,10 @@ import t from '../utils/translator';
 
 const AboutMe = () => {
   return (
-    <section className={'about-me'}>
+    <section
+      className={'about-me'}
+      id={'about-me'}
+    >
       <h3>{ t('aboutMe.title') }</h3>
 
       <div className={'grid'}>

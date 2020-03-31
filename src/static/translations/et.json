@@ -1,6 +1,7 @@
 {
   "aboutMe": {
     "hobbies": "Vaba aega sisustan ma lugemise, käsitöö ning oma suure taime&shy;kollektsiooni eest hoolitsemisega: eriti uhke olen ma oma sidruni&shy;puu üle. Samuti on minu jaoks kõrges hinnas trenn — käin sulgpalli- ja enese&shy;kaitse trennides — ning üks õige hommik algab ikka alati jooga&shy;sessiooniga.",
+    "menuItem": "Minust",
     "passion": {
       "part1": "Minu südamea&shy;sjaks on kasutaja&shy;kogemus (UX) ja ligi&shy;pääsetavus (accessibility). Harin end sellel alal pidevalt ning käin ka konverentsidel teadmisi täiendamas. Üks parimaid koolitus&shy;kogemusi oli just hiljuti, kus pime inimene demonstreeris veebi kasutamist, ning jagas ka näpunäiteid, mida paremini teha.",
       "part2": "Minu unistuste veebi&shy;leht on selline, mida igaüks saab kasutada, ilma selleks eelnevat juhendamist vajamata."
@@ -11,9 +12,11 @@
   "contacts": {
     "codeInfo": "Käesoleva CV koodi võib samuti leida GitHubist",
     "description": "Kui peale eeltoodu lugemist tunned, et soovid minuga koostööd teha, siis võta ühendust",
+    "menuItem": "Kontakt",
     "title": "Võta minuga ühendust"
   },
   "education": {
+    "menuItem": "Haridus",
     "places": {
       "reaalkool": {
         "description": "Keskharidus",
@@ -33,7 +36,9 @@
   "email": "E-post",
   "logo": "logo",
   "phone": "Telefon",
+  "top": "Üles",
   "work": {
+    "menuItem": "Töö",
     "new": {
       "description": "Kui oled huvitatud koos&shy;tööst minuga, siis võta julgesti ühendust!",
       "title": "Minu tuleviku töö"

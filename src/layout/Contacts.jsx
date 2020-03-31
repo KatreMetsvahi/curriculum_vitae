@@ -3,7 +3,10 @@ import t from '../utils/translator';
 
 const Contacts = () => {
   return (
-    <section className={'contacts'}>
+    <section
+      className={'contacts'}
+      id={'contacts'}
+    >
       <h3>{ t('contacts.title') }</h3>
       <p>{ t('contacts.description') }:</p>
 

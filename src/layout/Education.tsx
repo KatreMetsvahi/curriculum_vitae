@@ -4,7 +4,7 @@ import t from '../utils/translator';
 import education from '../static/data/education.json';
 
 const Education = () => (
-  <section>
+  <section id={'education'}>
     <h3>{ t('education.title') }</h3>
 
     <School data={education.ttuMasters}/>

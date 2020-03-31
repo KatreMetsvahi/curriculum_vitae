@@ -5,7 +5,7 @@ import t from '../utils/translator';
 import work from '../static/data/work.json';
 
 const Work = () => (
-  <section>
+  <section id={'work'}>
     <h3>{ t('work.title') }</h3>
 
     <div className={ 'grid' }>
