@@ -28,3 +28,10 @@
     box-shadow: 0 0 10px 0 $blue;
   }
 }
+
+.nav.nav--light {
+  @media (min-width: $breakpoint-xs) {
+    background: $white;
+    box-shadow: 0 0 10px 0 $grey;
+  }
+}

@@ -7,9 +7,16 @@ import { translator as t } from '../utils/translationUtils';
 
 const Nav = () => {
   const [pageScrolled, setPageScrolled] = useState(false);
+  const [cloudsInView, setCloudsInView] = useState(false);
+
+  const work = document.querySelector('#work');
 
   const handleScroll = throttle(300, () => {
     setPageScrolled(window.scrollY !== 0);
+
+    if (work) {
+      setCloudsInView(work.getBoundingClientRect().top > 1);
+    }
   });
 
   useEffect(() => {
@@ -22,7 +29,7 @@ const Nav = () => {
   }, [handleScroll]);
 
   return (
-    <nav className={cx('nav', { 'nav--scrolled': pageScrolled })}>
+    <nav className={cx('nav', { 'nav--scrolled': pageScrolled, 'nav--light': !cloudsInView })}>
       <NavLink
         cloud
         href={'#clouds'}
