@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { throttle } from 'throttle-debounce';
 import cx from 'classnames';
 import NavLink from '../components/NavLink';
 import NavLanguageSelect from '../components/NavLanguageSelect';
@@ -7,17 +8,18 @@ import { translator as t } from '../utils/translationUtils';
 const Nav = () => {
   const [pageScrolled, setPageScrolled] = useState(false);
 
-  const handleScroll = () => {
+  const handleScroll = throttle(300, () => {
     setPageScrolled(window.scrollY !== 0);
-  };
+  });
 
   useEffect(() => {
     window.addEventListener('scroll', handleScroll);
 
     return () => {
-      window.removeEventListener('scroll', handleScroll)
+      window.removeEventListener('scroll', handleScroll);
+      handleScroll.cancel();
     }
-  }, []);
+  }, [handleScroll]);
 
   return (
     <nav className={cx('nav', { 'nav--scrolled': pageScrolled })}>
