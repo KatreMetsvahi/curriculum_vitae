@@ -7,7 +7,7 @@ import { translator as t } from '../utils/translationUtils';
 
 const Nav = () => {
   const [pageScrolled, setPageScrolled] = useState(false);
-  const [cloudsInView, setCloudsInView] = useState(false);
+  const [cloudsInView, setCloudsInView] = useState(true);
 
   const work = document.querySelector('#work');
 
