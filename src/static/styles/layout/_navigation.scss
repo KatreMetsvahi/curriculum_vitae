@@ -1,18 +1,26 @@
-nav {
+.nav {
   background: $blue-dark;
   bottom: 0;
   box-shadow: 0 0 10px 0 $grey;
   display: table;
   position: fixed;
   text-align: center;
+  transition: 300ms ease-in {
+    property: background-color, box-shadow;
+  }
   width: 100%;
   z-index: 1;
 
   @media (min-width: $breakpoint-xs) {
-    background: linear-gradient(20deg, rgba(250, 250, 250, 0) 0%, $white 95%, $white 100%);
+    background: none;
     box-shadow: none;
     top: 0;
     text-align: right;
+
+    &.nav--scrolled {
+      background: $blue;
+      box-shadow: 0 0 10px 0 $blue;
+    }
   }
 }
 
@@ -30,11 +38,24 @@ nav {
     color: $text-color;
     display: inline-block;
     font: {
-      size: 1rem;
-      weight: 500;
+      size: .9rem;
+      weight: bold;
     }
     padding: 1rem;
+    text-transform: uppercase;
     width: auto;
+  }
+
+  &.nav-link--cloud {
+    @media (min-width: $breakpoint-xs) {
+      .nav-link__icon {
+        display: block;
+      }
+
+      .nav-link__text {
+        display: none;
+      }
+    }
   }
 }
 
@@ -45,17 +66,5 @@ nav {
 
   @media (min-width: $breakpoint-xs) {
     display: none;
-  }
-}
-
-.nav-link--cloud {
-  @media (min-width: $breakpoint-xs) {
-    .nav-link__icon {
-      display: block;
-    }
-
-    .nav-link__text {
-      display: none;
-    }
   }
 }
