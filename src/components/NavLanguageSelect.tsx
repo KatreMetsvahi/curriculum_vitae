@@ -19,11 +19,7 @@ const NavLanguageSelect = () => {
     return createLanguageButton(Language.Estonian, t('estonian'));
   }
 
-  if (currentLanguage === Language.Estonian) {
-    return createLanguageButton(Language.English, t('english'));
-  }
-
-  throw new Error(`Unknown language ${currentLanguage}`);
+  return createLanguageButton(Language.English, t('english'));
 };
 
 export default NavLanguageSelect;
